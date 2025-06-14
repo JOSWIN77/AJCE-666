@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amal Jyothi College of Engineering</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8ff;
+      color: #333;
+    }
+
+    header {
+      background: url('https://www.amaljyothi.ac.in/img/campus.jpg') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    }
+
+    nav {
+      background-color: #002b5c;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #014080;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .faculty-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .faculty-card {
+      background-color: #f0f4fa;
+      border-radius: 10px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .faculty-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid #014080;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #002b5c;
+      color: white;
+      padding: 20px;
+    }
+
+    a {
+      color: #014080;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 60px 20px;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Amal Jyothi College of Engineering</h1>
+    <p>Excellence in Technical Education and Research</p>
+  </header>
+
+  <nav>
+    <a href="#departments">Departments</a>
+    <a href="#faculties">Faculties</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About the College</h2>
+      <p>
+        Amal Jyothi College of Engineering, located in Kerala, India, is a premier institution 
+        known for academic excellence, industry-ready programs, and commitment to values-driven education.
+      </p>
+    </section>
+
+    <section id="departments">
+      <h2>Departments</h2>
+      <ul>
+        <li>Computer Science and Engineering</li>
+        <li>Electronics and Communication Engineering</li>
+        <li>Electrical and Electronics Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Artificial Intelligence & Data Science</li>
+        <li>MCA (Master of Computer Applications)</li>
+        <li>Applied Sciences and Humanities</li>
+      </ul>
+    </section>
+
+    <section id="faculties">
+      <h2>Our Faculties</h2>
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <img src="https://via.placeholder.com/100?text=Dr.+Alex" alt="Dr. Alex Thomas">
+          <h4>Dr. Alex Thomas</h4>
+          <p>Principal</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://via.placeholder.com/100?text=Maria" alt="Dr. Maria Joseph">
+          <h4>Dr. Maria Joseph</h4>
+          <p>HOD, CSE</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://via.placeholder.com/100?text=John" alt="Prof. John Mathew">
+          <h4>Prof. John Mathew</h4>
+          <p>HOD, Mechanical</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://via.placeholder.com/100?text=Neena" alt="Dr. Neena Jacob">
+          <h4>Dr. Neena Jacob</h4>
+          <p>HOD, ECE</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://via.placeholder.com/100?text=Rani" alt="Dr. Rani George">
+          <h4>Dr. Rani George</h4>
+          <p>HOD, AI & DS</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>B.Tech in CSE, ECE, ME, CE, EEE, AI&DS</li>
+        <li>M.Tech in various streams</li>
+        <li>MCA (Computer Applications)</li>
+        <li>Ph.D. in Engineering fields</li>
+        <li>Skill-based Certification Courses</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        <strong>Address:</strong> Amal Jyothi College of Engineering, Kanjirappally, Kerala - 686518<br/>
+        <strong>Phone:</strong> +91-4828-259000<br/>
+        <strong>Email:</strong> info@amaljyothi.ac.in<br/>
+        <strong>Website:</strong> <a href="https://www.amaljyothi.ac.in" target="_blank">www.amaljyothi.ac.in</a>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Amal Jyothi College of Engineering. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
